@@ -1,13 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class areaOfCircle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
         float radius = sc.nextFloat();
         double area = 3.14 * radius * radius;
         // float area = 3.14f * radius * radius;
-        System.out.println(area);
+        System.out.println("Area of the circle: " + area);
+        sc.close();
     }
 }
+
 
 
 // Type Conversion Conditions
