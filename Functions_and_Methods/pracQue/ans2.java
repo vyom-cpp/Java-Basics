@@ -15,6 +15,8 @@ public class ans2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int a = sc.nextInt();
+        sc.close();
+        
         if(isEven(a)) {
             System.out.println("Number is even");
         } else {

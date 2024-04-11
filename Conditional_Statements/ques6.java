@@ -6,6 +6,8 @@ public class ques6 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a day (1-7): ");
         int day = sc.nextInt();
+        sc.close();
+        
         String dayString;
 
         switch (day) {

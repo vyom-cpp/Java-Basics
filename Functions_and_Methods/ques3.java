@@ -18,6 +18,8 @@ public class ques3 {
         int a = sc.nextInt();
         System.out.print("b = ");
         int b = sc.nextInt();
+        sc.close();
+        
         swap(a, b); // Call by value
     }
 }

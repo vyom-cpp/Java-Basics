@@ -16,6 +16,8 @@ public class ques2 {
         int a = sc.nextInt();
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
+        sc.close();
+        
         int sum = calculateSum(a, b); // Arguments or actual parameters (declared during the function call)
         System.out.println("Sum is " + sum);
     }

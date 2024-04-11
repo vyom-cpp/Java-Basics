@@ -13,7 +13,7 @@ public class calc {
 
         System.out.print("Enter the operation (+, -, *, /): ");
         char operator = sc.next().charAt(0);
-
+        sc.close();
         double result = 0;
 
         switch (operator) {

@@ -14,6 +14,8 @@ public class ques4 {
         System.out.print("b = ");
         int b = sc.nextInt();
         int prod = calculateProduct(a, b);
+        sc.close();
+        
         System.out.println("a * b = " + prod);
     }
 }

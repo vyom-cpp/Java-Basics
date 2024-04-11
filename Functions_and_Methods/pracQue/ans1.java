@@ -16,6 +16,8 @@ public class ans1 {
         System.out.print("Enter third number: ");
         float c = sc.nextFloat();
         float result = average(a, b, c);
+        sc.close();
+        
         System.out.println(result);
     }
 }

@@ -11,6 +11,8 @@ public class ans2 {
         do {
         System.out.print("Enter the number ");
         number = sc.nextInt();
+        sc.close();
+
         if( number % 2 == 0) {
         evenSum += number;
         } else {

@@ -17,7 +17,7 @@ public class que1 {
 
         System.out.print("Enter marks of Maths: ");
         marks[2] = sc.nextInt();
-
+        sc.close();
         System.out.println("Physics: " + marks[0]);
         System.out.println("Chemistry: " + marks[1]);
         System.out.println("Maths: " + marks[2]);

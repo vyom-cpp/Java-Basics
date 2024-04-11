@@ -6,6 +6,8 @@ public class ans4 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Input an integer: ");
     int digits = sc.nextInt();
+    sc.close();
+    
     System.out.println("The sum is " + sumDigits(digits));
     }
 

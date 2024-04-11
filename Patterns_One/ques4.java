@@ -7,6 +7,8 @@ public class ques4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
+        
         char ch = 'A';
 
         for(int i=1; i<=n; i++){

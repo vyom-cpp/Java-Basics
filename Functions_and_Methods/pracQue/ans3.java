@@ -21,6 +21,8 @@ public class ans3 {
         System.out.println("Please Enter a number : ");
         Scanner sc = new Scanner(System.in);
         int palindrome = sc.nextInt();
+        sc.close();
+        
         if(isPalindrome(palindrome)) {
             System.out.println("Number : " + palindrome + " is a palindrome");
         } else {

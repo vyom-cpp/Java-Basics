@@ -1,5 +1,5 @@
 package Loops;
-import java.util.*;
+
 
 public class ques1 {
     public static void main(String[] args) {

@@ -5,6 +5,8 @@ import java.util.*;
 public class ques7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
+        
         do{
             System.out.print("Enter your number");
             int n = sc.nextInt();

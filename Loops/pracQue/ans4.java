@@ -8,6 +8,8 @@ public class ans4 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
+        
         for(int i=1; i<=10; i++){
             System.out.println(n*i);
         }

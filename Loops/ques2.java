@@ -6,6 +6,8 @@ public class ques2 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        sc.close();
+        
         int i = 1;
         while (i<=n) {
             System.out.println(i);

@@ -1,7 +1,5 @@
 package Functions_and_Methods;
 
-import java.util.Scanner;
-
 public class ques6 {
     public static int factorial(int num){
         int fact = 1;

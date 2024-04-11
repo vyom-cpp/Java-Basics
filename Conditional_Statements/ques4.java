@@ -10,6 +10,7 @@ public class ques4 {
         float b = sc.nextFloat();
         System.out.print("Enter third number: ");
         float c = sc.nextFloat();
+        sc.close();
         
         if(a>b && a>c){
             System.out.println("First number is greatest");

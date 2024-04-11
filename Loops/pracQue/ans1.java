@@ -1,5 +1,4 @@
 package Loops.pracQue;
-import java.util.*;
 
 public class ans1 {
     public static void main(String[] args) {

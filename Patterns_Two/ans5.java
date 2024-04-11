@@ -19,6 +19,6 @@ public class ans5 {
         System.out.print("Enter the number of rows: ");
         int rows = sc.nextInt();
         sc.close();
-        binaryTriangle(5);
+        binaryTriangle(rows);
     }
 }

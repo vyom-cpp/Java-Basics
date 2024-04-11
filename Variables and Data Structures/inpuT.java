@@ -13,7 +13,8 @@ public class inpuT {
         
         float price = sc.nextFloat();
         System.out.println(price);
-
+        sc.close();
+        
         // Inputs in Java
         //  1. next
         //  2. nextLine

@@ -8,6 +8,8 @@ public class ans3 {
         int fact = 1;
         System.out.println("Enter any number");
         int num = sc.nextInt();
+        sc.close();
+
         if(num<0){
             System.out.println("Wrong input");
         } else if(num==0 || num==1){
